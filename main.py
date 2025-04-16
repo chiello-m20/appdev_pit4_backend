@@ -49,7 +49,7 @@ app = FastAPI()
 # ✅ CORS Middleware for React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # React frontend URL
+    allow_origins=["https://inquisitive-moonbeam-27b167.netlify.app/"],  # React frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
